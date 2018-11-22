@@ -4,7 +4,8 @@ RUN apt-get update && apt-get install  -y --no-install-recommends \
     apt-transport-https \
     ca-certificates \
     curl \
-    software-properties-common 
+    software-properties-common \
+    p7zip
 
 RUN curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
 
